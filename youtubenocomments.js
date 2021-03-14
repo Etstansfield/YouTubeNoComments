@@ -2,7 +2,6 @@
 // attaching a listener to page load didn't seem to work for some reason - so doing it the lazy way
 var execute = function () {
  var commentsTag = document.getElementById('comments');
-  console.log(commentsTag);
  if (commentsTag) {
 	 commentsTag.remove();
   }
